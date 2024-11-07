@@ -26,7 +26,7 @@ pipeline {
         }
         stage('last deliver') {
             steps {
-                echo 'delivered'
+                echo 'last delivered'
             }
         }
     }
